@@ -12,13 +12,21 @@ The game is written in Phaser, HTML5&JS game engine. The source code is written 
 
 ##How to code/how to deploy
 When you clone/download this repo, just type in command line (requires `Node` and `npm`!):
+
 `npm i`
+
 After this you have all needed stuff, just use Gulp tasks we prepared, type in command line (requires global `gulp` installed also!):
+
 To watch TS files and generate JS files:
+
 `gulp watch`
+
 To generate JS files from TS files one time (may require manual close of the task):
+
 `gulp app-js`
+
 To prepare production version of JS from TS source (may require manual close of the task):
+
 `gulp production`
 
 ##Credits
