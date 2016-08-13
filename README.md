@@ -4,7 +4,7 @@ Amy In Space is simple HTML5 game about young girl who is trying to escape from 
 
 ##Play it!
 **You may find the game and play it here:
-[www.amy.itdotfocus.com](www.amy.itdotfocus.com)**
+[www.amy.itdotfocus.com](http://www.amy.itdotfocus.com)**
 
 ## Technologies used
 
@@ -22,5 +22,5 @@ Sancho82, 1linda, fins, Andy Rhode, Goran Andrić, Natty23
 Coded in 7 days.
 
 ##License
-(c) 2016 Copyrights and originally written by Jakub Król, [IT.focus](www.itdotfocus.com) .
+(c) 2016 Copyrights and originally written by Jakub Król, [IT.focus](http://www.itdotfocus.com) .
 You may use, copy, modify, just include original header, open source your version and apply original license.
