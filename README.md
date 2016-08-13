@@ -2,6 +2,10 @@
 
 Amy In Space is simple HTML5 game about young girl who is trying to escape from the sky building. She needs to collect diamonds and avoid zombies. Amy has a power to create - she may expand floors - expanding the game world itself. This was the reason to create this game - idea to expand game world.
 
+##Play it!
+**You may find the game and play it here:
+[www.amy.itdotfocus.com](www.amy.itdotfocus.com)**
+
 ## Technologies used
 
 The game is written in Phaser, HTML5&JS game engine. The source code is written in TypeScript with some sweet ES2015. Lovely ;)
