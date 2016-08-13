@@ -212,8 +212,8 @@ export default class GameMap {
             spritesIdxs:any = {},
             changes = false;
 
-        this.fillArr(lastMapAr, this.width, this.height);
-        this.fillArr(lastMapSprites, this.width, this.height);
+        lastMapAr = this.fillArr(this.width, this.height);
+        lastMapSprites = this.fillArr(this.width, this.height);
 
         spritesAr.forEach((sprite:Sprite, idx:number) => {
             const pos = this.gameXYToMapXY(sprite.position);
@@ -543,8 +543,8 @@ export default class GameMap {
         this.height = mapData.length;
         this.width = mapData[0].length;
 
-        this.fillArr(this.mapAr, this.width, this.height);
-        this.fillArr(this.rocksAr, this.width, this.height);
+        this.mapAr = this.fillArr(this.width, this.height);
+        this.rocksAr = this.fillArr(this.width, this.height);
 
         mapData.forEach((dataRow:string, y:number) => {
             for (let x = 0, len = dataRow.length; x < len; x++) {
@@ -582,14 +582,8 @@ export default class GameMap {
     /**
      * Helper to make any array [[false, false, false...], ...]
      */
-    private fillArr(array:any,width,height:number){
-        for (let i = 0; i < height; i++){
-            let row = [];
-            for (let j = 0; j < width; j++){
-                row.push(false);
-            }
-            array.push(row);
-        }
+    private fillArr(width,height:number){
+        return Array(height).fill(Array(width).fill(false));
     }
 
     /**
