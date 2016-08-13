@@ -1,0 +1,28 @@
+{
+  "name": "AmyInSpace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakub Krol",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-ts": "^0.3.0",
+    "gulp-typescript": "^2.12.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "lodash.assign": "^4.0.8",
+    "tsify": "^0.14.7",
+    "typescript": "^1.8.9",
+    "typescript-compiler": "^1.4.1-2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "walk-sync": "^0.2.6",
+    "watchify": "^3.7.0"
+  }
+}
